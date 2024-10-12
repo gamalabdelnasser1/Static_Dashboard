@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome library -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- normalize -->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!-- Frame Work -->
+    <link rel="stylesheet" href="style/framework.css">
+    <!-- Style for the main page -->
+    <link rel="stylesheet" href="style/main.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <div class="page d-flex">
+        <div class="sidebar p-20 bg-white p-relative">
+            <h3 class="sidebar-head p-relative">Elzero</h3>
+            <ul>
+                <li>
+                    <a href="index.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html" class="active d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="hide-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content flex-1 o-flow">
+            <div class="con-head p-15 bg-white between-flex">
+                <div class="search p-relative c-ccc">
+                    <input type="text" name="search" id="search-bar" placeholder="Type A Keywod" class="p-10 rad-6 fs-14">
+                </div>
+                <div class="notify d-flex align-center">
+                    <i class="fa-regular fa-bell fa-lg p-relative"></i>
+                    <img src="imgs/dashboard/avatar.png" alt="" class="rounded ml-10">
+                </div>
+            </div>
+            <h1 class="page-name m-20 p-relative">Projects</h1>
+
+            <div class="projects-page m-20 d-grid gap-20">
+                
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Elzero Dashboard</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Elzero Dashboard Project Design And Programming And Hosting</p>
+                    <span class="date c-gray fs-13">15/10/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-03.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-04.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-05.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Hosting</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Marketing</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-red h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 2500</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Academy Portal</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Academy Portal Project Design And Programming</p>
+                    <span class="date c-gray fs-13">15/6/2022</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-03.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                    </div>
+                    <div class="between-flex text-c-mobile f-wrap pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-green h-full w-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 1800</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Chatting Application</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Chatting Application Project Design</p>
+                    <span class="date c-gray fs-13">15/6/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-03.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Hosting</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Marketing</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-blue h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 950</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Ahmed Dashboard</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Ahmed Dashboard Project Design And Programming And Hosting</p>
+                    <span class="date c-gray fs-13">15/6/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-04.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-05.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Hosting</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Marketing</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-green h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 1700</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Ahmed Portal</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Ahmed Portal Project Design And Programming</p>
+                    <span class="date c-gray fs-13">15/6/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-03.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-05.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-green h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 850</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Mohamed Application</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Mohamed Application Project Design</p>
+                    <span class="date c-gray fs-13">15/6/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-04.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-05.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-blue h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full ">$ 850</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Mohamed Dashboard</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Mohamed Dashboard Project Design And Programming And Hosting</p>
+                    <span class="date c-gray fs-13">15/6/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/news-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-04.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-red h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 1950</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Mohamed Portal</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Mohamed Dashboard Project Design And Programming And Hosting</p>
+                    <span class="date c-gray fs-13">15/6/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-03.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-04.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Programming</span>
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-orange h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 1650</span>
+                    </div>
+                </div>
+
+                <div class="proj bg-white p-20 rad-10 p-relative">
+                    <div>Ahmed Application</div>
+                    <p class="c-gray mb-20 mt-10 fs-14">Ahmed Application Project Design</p>
+                    <span class="date c-gray fs-13">15/6/2024</span>
+                    <div class="imgs pb-20 pt-20 b-bottom">
+                        <img class="rounded" src="imgs/dashboard/team-01.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-02.png" alt="">
+                        <img class="rounded bg-white" src="imgs/dashboard/team-03.png" alt="">
+                    </div>
+                    <div class="options p-15 d-flex f-column-mobile b-bottom">
+                        <span class="btn-shape bg-eee w-fit d-block">Design</span>
+                    </div>
+                    <div class="between-flex f-wrap text-c-mobile pt-20">
+                        <div class="progress bg-eee rad-6">
+                            <span class="bg-green h-full rad-6 d-block" style="width: 75%;"></span>
+                        </div>
+                        <span class="c-gray w-full">$ 950</span>
+                    </div>
+                </div>
+                      
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

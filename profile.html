@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome library -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- normalize -->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!-- Frame Work -->
+    <link rel="stylesheet" href="style/framework.css">
+    <!-- Style for the main page -->
+    <link rel="stylesheet" href="style/main.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <div class="page d-flex">
+        <div class="sidebar p-20 bg-white p-relative">
+            <h3 class="sidebar-head p-relative">Elzero</h3>
+            <ul>
+                <li>
+                    <a href="index.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class="active d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html" class="d-flex align-center c-black fs-14 rad-6 p-10">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="hide-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content flex-1 o-flow">
+            <div class="con-head p-15 bg-white between-flex">
+                <div class="search p-relative c-ccc">
+                    <input type="text" name="search" id="search-bar" placeholder="Type A Keywod" class="p-10 rad-6 fs-14">
+                </div>
+                <div class="notify d-flex align-center">
+                    <i class="fa-regular fa-bell fa-lg p-relative"></i>
+                    <img src="imgs/dashboard/avatar.png" alt="" class="rounded ml-10">
+                </div>
+            </div>
+            <h1 class="page-name m-20 p-relative">Profile</h1>
+
+            
+            <div class="profile-page m-20 d-flex f-wrap gap-20">
+                <div class="informations f-column-mobile d-flex w-full align-center bg-white rad-10">
+
+                    <div class="image-info text-c p-20">
+                        <img class="mb-10" src="imgs/dashboard/avatar.png" alt="">
+                        <div class="fw-bold d-block fs-25 mb-10">Osama Elzero</div>
+                        <span class="fs-15 c-gray d-block mb-10">Level 20</span>
+                        <div class="level-prog bg-eee mb-10"><span class="bg-blue d-block" style="width: 70%;"></span></div>
+                        <div class="stars mb-5">
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                        </div>
+                        <span class="c-gray fs-13">550 ratings</span>
+                    </div>
+
+                    <div class="general-info text-c-mobile flex-1">
+
+                        <div class="row b-bottom p-20">
+                            <span class="fs-14 c-gray mb-10 d-block">General Information</span>
+                            <div class="text f-column-mobile d-flex align-center f-wrap">
+                                <div class="fs-14"><span class="c-gray">Full Name: </span>Osama Elzero</div>
+                                <div class="fs-14"><span class="c-gray">Gender: </span>Male</div>
+                                <div class="fs-14"><span class="c-gray">Country: </span>Egypt</div>
+                                <label>
+                                    <input class="toggle-check" type="checkbox" checked>
+                                    <div class="clicked-btn"></div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row b-bottom p-20">
+                            <span class="fs-14 c-gray mb-10 d-block">Personal Information</span>
+                            <div class="text f-column-mobile d-flex align-center f-wrap">
+                                <div class="fs-14"><span class="c-gray">Email: </span>o@nn.sa</div>
+                                <div class="fs-14"><span class="c-gray">Phone: </span>019123456789</div>
+                                <div class="fs-14"><span class="c-gray">Date Of Birth: </span>25/10/1982</div>
+                                <label>
+                                    <input class="toggle-check" type="checkbox">
+                                    <div class="clicked-btn"></div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row b-bottom p-20">
+                            <span class="fs-14 c-gray mb-10 d-block">Job Information</span>
+                            <div class="text f-column-mobile d-flex align-center f-wrap">
+                                <div class="fs-14"><span class="c-gray">Title: </span>Full Stack Developer</div>
+                                <div class="fs-14"><span class="c-gray">Programming Language: </span>Python</div>
+                                <div class="fs-14"><span class="c-gray">Years Of Experience: </span>15+</div>
+                                <label>
+                                    <input class="toggle-check" type="checkbox" checked>
+                                    <div class="clicked-btn"></div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row p-20">
+                            <span class="fs-14 c-gray mb-10 d-block">Billing Information</span>
+                            <div class="text f-column-mobile d-flex align-center f-wrap">
+                                <div class="fs-14"><span class="c-gray">Payment Method: </span>Paypal</div>
+                                <div class="fs-14"><span class="c-gray">Email: </span>email@website.com</div>
+                                <div class="fs-14"><span class="c-gray">Subscription: </span>Monthly</div>
+                                <label>
+                                    <input class="toggle-check" type="checkbox">
+                                    <div class="clicked-btn"></div>
+                                </label>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="my-skills bg-white p-20 rad-10">
+                        <h3 class="card-head m-0">My Skills</h3>
+                        <p class="c-gray">Complete Skills List</p>
+
+                        <div class="b-bottom mt-10 d-flex">
+                            <span class="bg-eee d-block btn-shape ml-5">HTML</span>
+                            <span class="bg-eee d-block btn-shape ml-5">Pugjs</span>
+                            <span class="bg-eee d-block btn-shape ml-5">HAML</span>
+                        </div>
+
+                        <div class="b-bottom d-flex">
+                            <span class="bg-eee d-block btn-shape ml-5">CSS</span>
+                            <span class="bg-eee d-block btn-shape ml-5">SASS</span>
+                            <span class="bg-eee d-block btn-shape ml-5">Stylus</span>
+                        </div>
+
+                        <div class="b-bottom d-flex">
+                            <span class="bg-eee d-block btn-shape ml-5">JavaScript</span>
+                            <span class="bg-eee d-block btn-shape ml-5">TypeScript</span>
+                        </div>
+
+                        <div class="b-bottom d-flex">
+                            <span class="bg-eee d-block btn-shape ml-5">Vuejs</span>
+                            <span class="bg-eee d-block btn-shape ml-5">Reactjs</span>
+                        </div>
+
+                        <div class="b-bottom d-flex">
+                            <span class="bg-eee d-block btn-shape ml-5">Jest</span>
+                            <span class="bg-eee d-block btn-shape ml-5">Jasmine</span>
+                        </div>
+
+                        <div class="b-bottom d-flex">
+                            <span class="bg-eee d-block btn-shape ml-5">PHP</span>
+                            <span class="bg-eee d-block btn-shape ml-5">Laravel</span>
+                        </div>
+
+                        <div class="d-flex">
+                            <span class="bg-eee d-block btn-shape ml-5">Python</span>
+                            <span class="bg-eee d-block btn-shape ml-5">Django</span>
+                        </div>
+                </div>
+
+                <div class="latest-activities flex-1 bg-white p-20 rad-10">
+                    <h3 class="card-head m-0">Latest Activities</h3>
+                    <p class="c-gray">Latest Activities Done By The User</p>
+
+                    <div class="row b-bottom d-flex f-column-mobile align-center pt-20 pb-20">
+                        <img class="mr-15" src="imgs/dashboard/activity-01.png" alt="">
+                        <div class="flex-1 between-flex f-column-mobile text-c-mobile">
+                            <div>
+                                <span class="d-block mb-10">Store</span> 
+                                <span class="c-gray">Bought The Mastering Python Course</span>
+                            </div>
+                            <div> 
+                                <span class="d-block mb-10">18:10</span> 
+                                <span class="c-gray">Yesterday</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row b-bottom d-flex align-center f-column-mobile pt-20 pb-20">
+                        <img class="mr-15" src="imgs/dashboard/activity-02.png" alt="">
+                        <div class="flex-1 between-flex f-column-mobile text-c-mobile">
+                            <div>
+                                <span class="d-block mb-10">Store</span> 
+                                <span class="c-gray">Bought The Mastering Python Course</span>
+                            </div>
+                            <div> 
+                                <span class="d-block mb-10">18:10</span> 
+                                <span class="c-gray">Yesterday</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row b-bottom d-flex align-center f-column-mobile pt-20 pb-20">
+                        <img class="mr-15" src="imgs/dashboard/activity-03.png" alt="">
+                        <div class="flex-1 between-flex f-column-mobile text-c-mobile">
+                            <div>
+                                <span class="d-block mb-10">Store</span> 
+                                <span class="c-gray">Bought The Mastering Python Course</span>
+                            </div>
+                            <div> 
+                                <span class="d-block mb-10">18:10</span> 
+                                <span class="c-gray">Yesterday</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row d-flex align-center pt-20 pb-20 f-column-mobile">
+                        <img class="mr-15" src="imgs/dashboard/activity-01.png" alt="">
+                        <div class="flex-1 between-flex f-column-mobile text-c-mobile">
+                            <div>
+                                <span class="d-block mb-10">Store</span> 
+                                <span class="c-gray">Bought The Mastering Python Course</span>
+                            </div>
+                            <div> 
+                                <span class="d-block mb-10">18:10</span> 
+                                <span class="c-gray">Yesterday</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
